@@ -1,7 +1,7 @@
 ## Introduction
 
 This CRUD application is build using Laravel 6.x, PHP > 7, Vue.js, jQuery, Axios, Bootstrap. I built and ran this application on Laravel Homestead. Homestead provides
-a complete development environment. You can see composer.json file for more details.
+a complete development environment.
 
 
 
