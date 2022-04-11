@@ -128,16 +128,11 @@ export default {
       }
     },
     methods: {
-        addinfo : function (event)
-        {
-            alert('Hello there');
-        },
         infosubmit : function()
         {
             axios.post('/create', this.informationform)
             .then((response) => {
                 if(response.status == 200){
-                    alert(response['data']);
                     location.reload();
                 }
             });
@@ -148,7 +143,6 @@ export default {
             axios.post('/destroy/'+input)
                 .then((response) => {
                     if(response.status == 200){
-                        alert(response['data']);
                         location.reload();
                     }
                 });
